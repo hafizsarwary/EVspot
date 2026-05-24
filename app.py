@@ -50,6 +50,18 @@ st.markdown(
             z-index: 100000;
         }
 
+        [data-testid="collapsedControl"] button {
+            color: #000000;
+            background: #ffffff;
+            border: 1px solid #cfd6e2;
+            box-shadow: 0 6px 14px rgba(15, 23, 42, 0.16);
+        }
+
+        [data-testid="collapsedControl"] svg {
+            color: #000000;
+            stroke: #000000;
+        }
+
         .block-container {
             padding: 2.45rem 0.85rem 0;
             max-width: 100%;
