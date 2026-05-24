@@ -1,0 +1,10 @@
+streamlit
+geopandas
+osmnx
+leafmap
+numpy
+shapely
+folium
+streamlit-folium
+branca
+pydeck
