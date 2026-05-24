@@ -51,15 +51,32 @@ st.markdown(
         }
 
         [data-testid="collapsedControl"] button {
-            color: #000000;
-            background: #ffffff;
-            border: 1px solid #cfd6e2;
-            box-shadow: 0 6px 14px rgba(15, 23, 42, 0.16);
+            color: #111827 !important;
+            background: #f8fafc !important;
+            border: 1px solid #9ca3af !important;
+            box-shadow: 0 6px 14px rgba(15, 23, 42, 0.22) !important;
         }
 
+        [data-testid="collapsedControl"] button:hover,
+        [data-testid="collapsedControl"] button:focus,
+        [data-testid="collapsedControl"] button:active {
+            color: #111827 !important;
+            background: #e5e7eb !important;
+            border-color: #6b7280 !important;
+        }
+
+        [data-testid="collapsedControl"] button *,
         [data-testid="collapsedControl"] svg {
-            color: #000000;
-            stroke: #000000;
+            color: #111827 !important;
+            stroke: #111827 !important;
+            fill: #111827 !important;
+        }
+
+        [data-testid="collapsedControl"] svg path,
+        [data-testid="collapsedControl"] svg line,
+        [data-testid="collapsedControl"] svg polyline {
+            stroke: #111827 !important;
+            fill: none !important;
         }
 
         .block-container {
